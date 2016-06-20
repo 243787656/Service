@@ -6,6 +6,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+/**
+ * start启动方式
+ */
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
     public static final String ACTION="com.jay.example.service.TEST_SERVICE1";
     Intent intent;
